@@ -1,29 +1,65 @@
-
-[
-  {
-    "id": 1,
-    "name": "Leanne Graham",
-    "username": "Bret",
-    "email": "Sincere@april.biz",
-    "address": {
-      "street": "Kulas Light",
-      "suite": "Apt. 556",
-      "city": "Gwenborough",
-      "zipcode": "92998-3874",
-      "geo": {
-        "lat": "-37.3159",
-        "lng": "81.1496"
-      }
-    },
-    "phone": "1-770-736-8031 x56442",
-    "website": "hildegard.org",
-    "company": {
-      "name": "Romaguera-Crona",
-      "catchPhrase": "Multi-layered client-server neural-net",
-      "bs": "harness real-time e-markets"
-    }
-  }
+{
   
-]
-
-
+  "User": [
+    { 
+        "name":"Paresh Korani",
+       "dob": "12-05-95",
+       "gender":"Male",
+       "email":{
+          "prime_email":"shankar.korani@gmail.com",
+         "second_email":"paresh.korani@gmail.com"
+       },
+       "phone":{
+          "phone1":"8975103979",
+          "phone2":"8459705362"
+       },
+       "address": {
+          "address1":"Near ICICI Bank",
+          "address2": "New Plot,Amalner",
+          "area": "Dayna Park",
+          "city": "Suite 449",
+          "district": "Bartholomebury",
+          "country": "USA",
+          "po":"xyz",
+         "police":"abc"
+       },
+       "relation":"self"
+    },
+    { 
+        "name":"Shankar Korani",
+       "dob": "12-05-95",
+       "gender":"Male",
+       "email":{
+          "prime_email":"shankar.korani@gmail.com",
+         "second_email":"paresh.korani@gmail.com"
+       },
+       "phone":{
+          "phone1":"8975103979",
+          "phone2":"8459705362"
+       },
+       "address": {
+          "address1":"Near ICICI Bank",
+          "address2": "New Plot,Amalner",
+          "area": "Dayna Park",
+          "city": "Suite 449",
+          "district": "Bartholomebury",
+          "country": "USA",
+          "po":"xyz",
+         "police":"abc"
+       },
+       "relation":"self"
+    }
+    
+  ],
+  
+  "Ins_type": ["Self Base","Own Group","Spouse Group","Self Top-up","Specific Disease"],
+  
+  "Covered_person":["Self","Father","Mother","Spouse","Son","Daughter","Father-in-law","Mother-in-law","Brother","Sister"],
+  
+  "Coverage_type":["Hospitalization"," OPD treatment","Ambulance services","Room Rent Cap","Copay %","Deductible for Hospitalization"],
+  
+  "Carrier_details":[{"Ins_co":"1","Ins_type":"Self Base","Prime_mem":"Swartha Datta","Rel":"Self"},
+                     {"Ins_co":"2","Ins_type":"Spouse Group","Prime_mem":"Swarthi Datta","Rel":"Spouse"},
+                     {"Ins_co":"3","Ins_type":"Self Topup","Prime_mem":"Swartha Datta","Rel":"Self"}
+                    ]
+  
